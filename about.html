@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #101010, #282828);
+            color: #b8b8b8;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: right;
+            position: relative;
+        }
+        a {
+            text-decoration: none;
+            color: #f05454;
+        }
+        a:hover {
+            color: #d43f3f;
+        }
+        .side-image {
+            position: absolute;
+            top: 0px;
+            right: -250px;
+            width: 250px;
+            height: 710px;
+            z-index: 1;
+            opacity: 0.9;
+        }
+        .main-header {
+            background: linear-gradient(to right, #1f1f1f, #101010);
+            color: #f05454;
+            padding: 20px 0;
+            text-align: right;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+        }
+        .main-header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .main-header span {
+            color: #d43f3f;
+        }
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+        }
+        .navigation ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .navigation ul li a {
+            color: #b8b8b8;
+            font-weight: bold;
+        }
+        .navigation ul li a.active {
+            border-bottom: 2px solid #f05454;
+        }
+        .content {
+            margin: 30px 0;
+            background: #1f1f1f;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: right;
+        }
+        .content h2 {
+            color: #f05454;
+            border-bottom: 2px solid #d43f3f;
+            display: inline-block;
+        }
+        .about-section {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 20px;
+        }
+        .profile-photo {
+            border-radius: 10px;
+            border: 5px solid #282828;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #282828;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 5px solid #f05454;
+            border-radius: 5px;
+        }
+        .interests, .education, .goals {
+            margin: 20px 0;
+        }
+        .main-footer {
+            background: #101010;
+            color: #b8b8b8;
+            text-align: center;
+            padding: 10px 0;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.7);
+        }
+        .main-footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<header class="main-header">
+    <div class="container">
+        <h1>Про мене</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html" class="active">Про мене</a></li>
+                <li><a href="practical.html">Практичні роботи</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="content container">
+    <h2>ВІТАЮ!</h2>
+    <section class="about-section">
+        <div class="profile-info">
+            <p>
+                Це знову Я!
+            </p>
+            <p>
+                Так, мене досі звати Юра. Я навчаюся в ДУЖЕ ГАРНОМУ УНІВЕРСИТЕТІ!!! Мені дуже все подобається. 
+		Бажаю усього найкращого тій людині, яка буде перевіряти мою роботу. Про себе я мало чого могу сказати. 
+                Я звичайний хлопець, якому незабаром буде 25-рочків й майже 9 років намагється навчатися хоч десь та вже втомися це робити.
+            </p>
+        </div>
+        <img src="images/photo.jpg" alt="Фото Юри" class="profile-photo">
+    </section>
+
+    <section class="skills">
+        <h2>Вміння та таланти</h2>
+        <ul>
+            <li>Нічого особливого</li>
+            <li>Досвід як виживати в нашій системі освіти</li>
+            <li>Навички нічого не робити</li>
+            <li>Знаходити хоча б якусь мотивацію жити надалі та надавати людям хороший настрій</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="main-footer">
+    <p>Ну просто радий вас бачити на моєму сайті!</p>
+
+    <a href="https://github.com/PesLevchenko" target="_blank">
+        <img src="images/git.png" alt="GitHub" style="width: 30px; height: 30px; margin: 0 10px;">
+    </a>
+</footer>
+</body>
+</html>
