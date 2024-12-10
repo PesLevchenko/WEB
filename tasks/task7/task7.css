@@ -1,0 +1,131 @@
+/* Основні стилі для темної теми */
+.page-dark {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Стилі для header */
+.header-dark {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.header__logo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header__menu-link {
+    color: #BBBBBB;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header__menu-link:hover {
+    color: #FF5A5F; /* Колір підсвітки для активних елементів меню */
+}
+
+.header__cart-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Основний блок intro */
+.intro-dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #1C1C1C;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+.intro__title-dark {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #FF5A5F; /* Червоний колір для заголовка */
+    text-transform: uppercase;
+}
+
+.intro__subtitle-dark {
+    font-size: 1.5rem;
+    color: #AAAAAA;
+    margin-top: 10px;
+}
+
+.intro__description-dark {
+    color: #BBBBBB;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.button--primary-dark {
+    background-color: #FF5A5F;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button--primary-dark:hover {
+    background-color: #cc4c4e;
+    transform: translateY(-2px);
+}
+
+/* Стилі для зображень */
+.intro__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.intro__image-main-container {
+    max-width: 350px; /* Збільшена ширина для головного фото */
+}
+
+.intro__image--main-dark {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro__image-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.intro__image-dark {
+    width: 200px; /* Встановлено ширину для 2 та 3 фото */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header__hamburger-icon {
+    width: 25px;
+    height: 25px;
+    fill: #ffffff; /* Контрастний колір для іконки */
+}
